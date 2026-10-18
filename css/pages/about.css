@@ -1,0 +1,6 @@
+.about-grid{display:grid;gap:3rem;grid-template-columns:1fr 1fr;align-items:center}
+.about-photo{aspect-ratio:4/5;border-radius:28px;background-image:var(--img),linear-gradient(135deg,#99f6e4,#7dd3fc);background-size:cover;background-position:center;border:6px solid #fff;box-shadow:0 30px 60px -25px rgba(15,23,42,.35)}
+.values{display:grid;gap:1rem;margin-top:1.5rem}
+.values div{display:flex;gap:.9rem;align-items:flex-start}
+.values .icon-box{margin:0;width:2.8rem;height:2.8rem;font-size:1.1rem;flex:none}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}}

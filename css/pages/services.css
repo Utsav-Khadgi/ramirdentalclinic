@@ -1,0 +1,3 @@
+.service p{margin-bottom:1.2rem}
+.service{transition:transform .2s,box-shadow .2s}
+.service:hover{transform:translateY(-4px);box-shadow:0 24px 40px -24px rgba(13,148,136,.35)}
