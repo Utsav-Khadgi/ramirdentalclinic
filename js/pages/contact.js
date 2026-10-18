@@ -1,5 +1,5 @@
 // No backend: the form opens a pre-filled WhatsApp message to the clinic.
-const CLINIC_WHATSAPP = '97798XXXXXXXX'; // TODO: replace with the clinic's number (country code, no +)
+const CLINIC_WHATSAPP = '9779823381154'; // TODO: replace with the clinic's number (country code, no +)
 const form = document.getElementById('appointment-form');
 form?.addEventListener('submit', e => {
   e.preventDefault();
